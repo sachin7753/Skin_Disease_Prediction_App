@@ -29,6 +29,8 @@ JSON: User data and disease information storage
 Clone the repo and install dependencies from requirements.txt
 Make sure the model file skin_model.h5 and users.json are in the project folder
 
+Dataset: https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000?resource=download
+
 Run the app with:
 streamlit run app.py  
 Register or login, upload a skin image, and get predictions!
