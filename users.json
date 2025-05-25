@@ -1,0 +1,17 @@
+{
+    "admin": {
+        "password": "admin123",
+        "role": "admin"
+    },
+    "doctor": {
+        "password": "docpass",
+        "role": "doctor"
+    },
+    "user1": {
+        "password": "userpass",
+        "role": "user"
+    },
+    "sachin": "2005",
+    "sathya": "123456",
+    "raja": "2323"
+}
