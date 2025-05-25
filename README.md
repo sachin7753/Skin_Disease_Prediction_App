@@ -1,42 +1,40 @@
-# Skin_Disease_Prediction_App
+# AI-Powered Skin Disease Detection & E-Consultation App
 
-Overview
-A web-based app built with Streamlit and TensorFlow that uses deep learning to detect skin diseases from images and provide users with helpful medical information. It supports user registration and login for personalized access.
+A web app that uses deep learning to detect skin diseases from images and provides helpful medical guidance.
 
+# Project Summary
+This app allows users to upload photos of their skin conditions and uses a trained Convolutional Neural Network (CNN) model to predict the type of skin disease. It then provides detailed information about the disease, including causes, care tips, medications, and treatment options.
+
+The app also includes secure user authentication with registration and login, keeping sessions active during use.
 Features
-Upload skin images for AI-powered disease prediction
+Upload images (JPG, PNG) for skin disease prediction
 
-Detailed disease report including causes, dos & don'ts, medication, and treatments
+Deep learning model (CNN) trained on skin disease dataset
 
-Secure user authentication system
+Detailed disease reports with causes, dos & don’ts, medication, and treatments
 
-User-friendly interface built with Streamlit
+User registration and login with session management
 
-Tech Stack
-Frontend & Backend: Streamlit
+Built using Streamlit for an interactive web interface
 
-Machine Learning: TensorFlow / Keras (CNN model)
+Technologies Used
+Streamlit: Web app framework for UI and backend
 
-Image Processing: PIL, NumPy
+TensorFlow/Keras: Deep learning model development and prediction
 
-Data Storage: JSON for user management and disease metadata
+PIL & NumPy: Image processing and array operations
+
+JSON: User data and disease information storage
 
 How to Run
-Clone the repo
+Clone the repo and install dependencies from requirements.txt
 
-Install dependencies:
-pip install -r requirements.txt  
+Make sure the model file skin_model.h5 and users.json are in the project folder
 
-Run the app:
+Run the app with:
 streamlit run app.py  
-Upload skin images, register/login, and start detecting!
+Register or login, upload a skin image, and get predictions!
 
-Folder Structure
-app.py: Main app code
-skin_model.h5: Pretrained CNN model
-users.json: Stores user credentials
-utils/disease_info.py: Disease metadata and info
 
-Contributing
-Feel free to open issues or submit pull requests to improve features, add more diseases, or enhance UI.
-
+Disclaimer
+This app is for educational purposes only and not a substitute for professional medical advice.
